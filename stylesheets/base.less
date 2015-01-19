@@ -52,99 +52,102 @@
     background-color: @syntax-selection-color;
 }
 
-:host .is-focused .line-number.cursor-line-no-selection, :host.is-focused .line.cursor-line {
-    background-color: #49483E;
+:host .is-focused .line-number.cursor-line-no-selection, :host.is-focused {
+    background-color: @color-syntax-Red;
 }
 
+:host .cursor-line {
+    background-color: rgba(255, 255, 255, 0.05);
+}
 
 .comment {
-    color: @syntax-color-darkBlue;
+    color: @color-syntax-BlueGray;
 }
 
 .string {
-    color: #f2f1f1;
+    color: @color-syntax-Text;
 }
 
 .string.quoted {
-    color: @syntax-color-orange;
+    color: @color-syntax-Orange;
 }
 
 
 .constant.numeric {
-    color: @syntax-color-purple;
+    color: @color-syntax-Purple;
 }
 
 .constant.language {
-    color: @syntax-color-red;
+    color: @color-syntax-Red;
 }
 
 .constant.character, .constant.other {
-    color: @syntax-color-orange;
+    color: @color-syntax-Orange;
 }
 
 .variable {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .keyword {
-    color: @syntax-color-red;
+    color: @color-syntax-Red;
 }
 
 .storange {
-    color: @syntax-color-red;
+    color: @color-syntax-Red;
 }
 
 .storange.type {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .entity.name.class {
-    color: #f2f1f1;
+    color: @color-syntax-Text;
 }
 
 .entity.other.inherited-class {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .entity.name.function {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .variable.parameter {
-    color: @syntax-color-orange;
+    color: @color-syntax-Orange;
 }
 
 .entity.name.tag {
-    color: @syntax-color-red;
+    color: @color-syntax-Red;
 }
 
 .entity.other.attribute-name {
-    color: @syntax-color-purple;
+    color: @color-syntax-Purple;
 }
 
 .support.function {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .support.constant {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .support.type, .support.class {
-    color: @syntax-color-blue;
+    color: @color-syntax-Blue;
 }
 
 .support.other.variable {
 }
 
 .invalid {
-    color: #F8F8F0;
-    background-color: @syntax-color-red;
+    color: @color-syntax-Text;
+    background-color: @color-syntax-Red;
 }
 
 .invalid.deprecated {
-    color: #F8F8F0;
-    background-color: @syntax-color-red;
+    color: @color-syntax-Text;
+    background-color: @color-syntax-Red;
 }
 
 .bracket {
@@ -152,5 +155,14 @@
 }
 
 .markup.heading {
-    color: @syntax-color-red;
+    color: @color-syntax-Red;
+}
+
+// git
+.git-line-modified {
+    border-left: 2px solid @color-syntax-BlueGray !important;
+}
+
+.git-line-added {
+    border-left: 2px solid @color-syntax-Blue !important;
 }
