@@ -1,7 +1,7 @@
 {
   "name": "radio-bright-syntax",
   "theme": "syntax",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Vivid color in dark.",
   "repository": "https://github.com/muukii0803/atom-radio-bright-syntax",
   "license": "MIT",
