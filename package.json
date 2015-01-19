@@ -1,8 +1,8 @@
 {
-  "name": "radio-bright-syntax",
+  "name": "Radio-Bright",
   "theme": "syntax",
   "version": "3.2.0",
-  "description": "A short description of your syntax theme",
+  "description": "Vivid color in dark.",
   "repository": "https://github.com/muukii0803/atom-radio-bright-syntax",
   "license": "MIT",
   "engines": {
