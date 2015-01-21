@@ -1,4 +1,4 @@
-# radio-bright-syntax theme
+# atom-fruits
 
 Syntax Theme For Atom.
 
