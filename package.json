@@ -1,9 +1,9 @@
 {
-  "name": "radio-bright-syntax",
+  "name": "fruit",
   "theme": "syntax",
   "version": "3.2.1",
-  "description": "Vivid color in dark.",
-  "repository": "https://github.com/muukii0803/atom-radio-bright-syntax",
+  "description": "Fruit Colors.",
+  "repository": "https://github.com/muukii0803/atom-fruit",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
