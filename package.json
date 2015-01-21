@@ -1,9 +1,9 @@
 {
-  "name": "fruit",
+  "name": "fruits",
   "theme": "syntax",
   "version": "3.2.1",
   "description": "Fruit Colors.",
-  "repository": "https://github.com/muukii0803/atom-fruit",
+  "repository": "https://github.com/muukii0803/atom-fruits",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
