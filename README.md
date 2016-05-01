@@ -1,10 +1,5 @@
-# atom-fruits
+# fruits-syntax theme
 
-Syntax Theme For Atom.
+A short description of your theme.
 
-![](https://raw.githubusercontent.com/muukii0803/atom-radio-bright-syntax/master/sample0.png)
-![](https://raw.githubusercontent.com/muukii0803/atom-radio-bright-syntax/master/sample1.png)
-![](https://raw.githubusercontent.com/muukii0803/atom-radio-bright-syntax/master/sample2.png)
-![](https://raw.githubusercontent.com/muukii0803/atom-radio-bright-syntax/master/sample3.png)
-![](https://raw.githubusercontent.com/muukii0803/atom-radio-bright-syntax/master/sample4.png)
-![](https://raw.githubusercontent.com/muukii0803/atom-radio-bright-syntax/master/sample5.png)
+![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
